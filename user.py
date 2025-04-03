@@ -4,6 +4,19 @@ import sqlite3
 
 # CLI application = command line interface
 
+# go to git bash
+# git config --global user.name "Jevid-hub"
+# git config --global user.email "kunwarjevid@gmail.com"
+
+# git init = first time
+# git status = if you want to check what are the status of files
+# git diff = if you want to check waht are the changes 
+# git add = track file and folder 
+# git commit -m "your message"
+# copy paste git code from github
+
+
+
 def create_connection():
     try:
        con = sqlite3.connect("users.sqlite3")
