@@ -16,6 +16,16 @@ import sqlite3
 # copy paste git code from github
 
 
+####################################
+
+# 1. change the code
+# 2. git add .
+# 3. git commit -m "your message"
+# 4. git push
+
+####################################
+
+
 
 def create_connection():
     try:
