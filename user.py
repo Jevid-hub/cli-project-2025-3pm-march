@@ -2,6 +2,8 @@ import csv
 import sqlite3
 
 
+# CLI application = command line interface
+
 def create_connection():
     try:
        con = sqlite3.connect("users.sqlite3")
